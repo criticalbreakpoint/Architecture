@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architecture.Core", "Architecture.Core\Architecture.Core.csproj", "{648CAEA7-10B3-417E-A052-4BF48F76D2C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Architecture.Tests", "Architecture.Tests\Architecture.Tests.csproj", "{9F496F0C-1BB6-4C07-AD93-4C8B74141911}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{9B461780-4DCB-490C-8909-5D4A0162C9E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4CBBAD0A-862C-47DA-95C6-37DAB3ACD7FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{648CAEA7-10B3-417E-A052-4BF48F76D2C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{648CAEA7-10B3-417E-A052-4BF48F76D2C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{648CAEA7-10B3-417E-A052-4BF48F76D2C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{648CAEA7-10B3-417E-A052-4BF48F76D2C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F496F0C-1BB6-4C07-AD93-4C8B74141911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F496F0C-1BB6-4C07-AD93-4C8B74141911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F496F0C-1BB6-4C07-AD93-4C8B74141911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F496F0C-1BB6-4C07-AD93-4C8B74141911}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{648CAEA7-10B3-417E-A052-4BF48F76D2C4} = {9B461780-4DCB-490C-8909-5D4A0162C9E8}
+		{9F496F0C-1BB6-4C07-AD93-4C8B74141911} = {4CBBAD0A-862C-47DA-95C6-37DAB3ACD7FA}
+	EndGlobalSection
+EndGlobal
